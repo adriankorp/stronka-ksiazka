@@ -19,7 +19,7 @@ class NewVisitorTest(unittest.TestCase):
         #Zwrocila uwage ze tytul strony i naglowek zawiera slowo listy
         self.assertIn('Listy', self.browser.title)
         header_text = self.browser.find_element_by_tag_name('h1').text
-        self.assertIn('Listy', header_text)
+        self.assertIn('lista', header_text)
 
         #Od razu zostaje zachecona aby wpisac rzeczy do zrobeina
         input_box = self.browser.find_element_by_id('id_new_item')
@@ -39,7 +39,8 @@ class NewVisitorTest(unittest.TestCase):
         table = self.browser.find_element_by_id('id_list_table')
         rows = table.find_elements_by_tag_name('tr')
         self.assertTrue(
-            any(row.text == '1: Kupic pawie piora' for row in rows)
+            any(row.text == '1: Kupic pawie piora' for row in rows),
+            "Nowy element nie znajduje sie w tabeli"
         )
 
         #Na stronie nadal znajduje sie pole tekstowe zachecajace do podania kolejnego zadania
