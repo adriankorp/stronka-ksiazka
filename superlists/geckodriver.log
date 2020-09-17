@@ -145,3 +145,134 @@ JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 208: Error: 
 
 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 
+1600360712788	geckodriver	INFO	Listening on 127.0.0.1:57829
+1600360715810	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\0men\\AppData\\Local\\Temp\\rust_mozprofileIoI62C"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1600360718208	Marionette	INFO	Listening on port 57837
+1600360718433	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 208: Error: Invalid autocomplete selectedIndex
+1600360721970	Marionette	INFO	Stopped listening on port 57837
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1600362561365	geckodriver	INFO	Listening on 127.0.0.1:58380
+1600362564398	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\0men\\AppData\\Local\\Temp\\rust_mozprofilePtS00q"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600362566808	Marionette	INFO	Listening on port 58388
+1600362567008	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 208: Error: Invalid autocomplete selectedIndex
+1600362570593	Marionette	INFO	Stopped listening on port 58388
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1600362584644	geckodriver	INFO	Listening on 127.0.0.1:58428
+1600362587685	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\0men\\AppData\\Local\\Temp\\rust_mozprofilex2D0d4"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600362590088	Marionette	INFO	Listening on port 58439
+1600362590302	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 208: Error: Invalid autocomplete selectedIndex
+1600362590861	Marionette	INFO	Stopped listening on port 58439
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1600362714289	geckodriver	INFO	Listening on 127.0.0.1:58489
+1600362717324	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\0men\\AppData\\Local\\Temp\\rust_mozprofileLFwvzi"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600362719624	Marionette	INFO	Listening on port 58497
+1600362719936	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 208: Error: Invalid autocomplete selectedIndex
+1600362733430	Marionette	INFO	Stopped listening on port 58497
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1600362901519	geckodriver	INFO	Listening on 127.0.0.1:58545
+1600362904561	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\0men\\AppData\\Local\\Temp\\rust_mozprofileM9iDJw"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1600362906965	Marionette	INFO	Listening on port 58553
+1600362907171	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 208: Error: Invalid autocomplete selectedIndex
+1600362920694	Marionette	INFO	Stopped listening on port 58553
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1600363338857	geckodriver	INFO	Listening on 127.0.0.1:58607
+1600363341890	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\0men\\AppData\\Local\\Temp\\rust_mozprofile3aTDHK"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1600363344369	Marionette	INFO	Listening on port 58615
+1600363344506	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 208: Error: Invalid autocomplete selectedIndex
+1600363358016	Marionette	INFO	Stopped listening on port 58615
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1600367757234	geckodriver	INFO	Listening on 127.0.0.1:59170
+1600367760266	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\0men\\AppData\\Local\\Temp\\rust_mozprofileZjMRhy"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1600367762566	Marionette	INFO	Listening on port 59178
+1600367762878	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 208: Error: Invalid autocomplete selectedIndex
+1600367763426	Marionette	INFO	Stopped listening on port 59178
+console.error: services.settings: 
+  main/cfr Signature failed  TypeError: NetworkError when attempting to fetch resource.
+console.error: services.settings: 
+  main/partitioning-exempt-urls Signature failed  TypeError: NetworkError when attempting to fetch resource.
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1600368394515	geckodriver	INFO	Listening on 127.0.0.1:59278
+1600368397568	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\0men\\AppData\\Local\\Temp\\rust_mozprofileLJlBnz"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1600368399899	Marionette	INFO	Listening on port 59286
+1600368400188	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 208: Error: Invalid autocomplete selectedIndex
+1600368401711	Marionette	INFO	Stopped listening on port 59286
+JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 691: TypeError: this.tablesData[table] is undefined
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1600370688819	geckodriver	INFO	Listening on 127.0.0.1:59490
+1600370691849	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\0men\\AppData\\Local\\Temp\\rust_mozprofilenCu3oT"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1600370694225	Marionette	INFO	Listening on port 59498
+1600370694459	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 208: Error: Invalid autocomplete selectedIndex
+1600370695954	Marionette	INFO	Stopped listening on port 59498
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+

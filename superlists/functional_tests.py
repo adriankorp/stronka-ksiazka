@@ -1,6 +1,7 @@
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 import unittest
+import time
 
 class NewVisitorTest(unittest.TestCase):
 
@@ -10,6 +11,8 @@ class NewVisitorTest(unittest.TestCase):
 
     def tearDown(self):
         self.browser.quit()
+
+    def
 
     def test_can_start_a_list_and_retrieve_it_later(self):
         self.browser.get('http://localhost:8000')
@@ -36,12 +39,10 @@ class NewVisitorTest(unittest.TestCase):
         #1. Kupic pawie piora
 
         input_box.send_keys(Keys.ENTER)
+        time.sleep(1)
         table = self.browser.find_element_by_id('id_list_table')
         rows = table.find_elements_by_tag_name('tr')
-        self.assertTrue(
-            any(row.text == '1: Kupic pawie piora' for row in rows),
-            "Nowy element nie znajduje sie w tabeli"
-        )
+        self.assertIn('1: Kupic pawie piora', [row.text for row in rows])
 
         #Na stronie nadal znajduje sie pole tekstowe zachecajace do podania kolejnego zadania
         self.fail('Zakonczenie testu')
