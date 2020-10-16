@@ -14,8 +14,7 @@ class NewVisitorTest(unittest.TestCase):
 
     def check_for_row_in_list_table(self, row_text):
         table = self.browser.find_element_by_id('id_list_table')
-        rows = table.find_elements_by_id('tr')
-
+        rows = table.find_elements_by_tag_name('tr')
         self.assertIn(row_text,[row.text for row in rows])
 
     def test_can_start_a_list_and_retrieve_it_later(self):
@@ -41,16 +40,19 @@ class NewVisitorTest(unittest.TestCase):
 
         # Po nacisnieciu klawisza Enter strona zostanie uaktualniona i wyswietla
         #1. Kupic pawie piora
-
         input_box.send_keys(Keys.ENTER)
         time.sleep(1)
+
+        self.check_for_row_in_list_table('1: Kupic pawie piora')
+
+
         input_box = self.browser.find_element_by_id('id_new_item')
         input_box.send_keys('Uzyc pawich pior do zrobienia przynety')
         input_box.send_keys(Keys.ENTER)
         time.sleep(1)
-        self.check_for_row_in_list_table('1: Kupic pawie piora')
-        self.check_for_row_in_list_table('2: Uzyc pawich pior do zrobienia przynety')
 
+        self.check_for_row_in_list_table('2: Uzyc pawich pior do zrobienia przynety')
+        self.check_for_row_in_list_table('1: Kupic pawie piora')
         #Na stronie nadal znajduje sie pole tekstowe zachecajace do podania kolejnego zadania
         self.fail('Zakonczenie testu')
 
