@@ -1,10 +1,4 @@
-"db.sqlite3" 
-"__pycache__" 
-"*.pyc" 
-"__pycache__" 
-"superlists/__pycache__" 
-"./superlists/__pycache__" 
-"superlists/lists/__pycache__" 
-"superlists/__pycache__" 
-"./superlists/__pycache__" 
-"__pycache__" 
+*.pyc
+.idea
+*.sqlite3
+__pycache__
